@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>    
-      <h1>Get started</h1> 
+      <h1>Explore The World</h1> 
       <Suspense fallback={<p>Countries are loading.......</p>}>
         <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>   
